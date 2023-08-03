@@ -14,13 +14,17 @@
 .header h1 {
     display: inline-block;
     font-size: 48px;
+    padding-right: 40px;
+    border-right: 5px solid yellow;
 }
+
 .header nav {
     padding-top: 0px;
     margin-right: 20px;
     float: right;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
+    scroll-behavior: smooth;
 }
 
 .header nav ul {
@@ -38,9 +42,14 @@ a {
 }
 
 .conector {
-    height: 800px;
-    width: 78%;
-    margin-left: 0%;
+    height: 600px;
+    width: auto;
+}
+.conector img {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    align-items: center;
 }
 
 .about-me {
@@ -66,64 +75,77 @@ a {
     font-size: 20px;
 }
 
+.about-me div img {
+    height: 70%;
+    width: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+}
+
 .work {
     color: #ffffff;
     background-color: black;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 25px;
     padding: 20px;
 }
 
-.blue {
+.first-app {
     display: flex;
-    height: 150px;
+    height: 300px;
+    width: auto;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.first-app img {
+    height: 100%;
     width: 100%;
+    padding: 30px;
+}
+
+.second-app {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 300px;
+    width: auto;
     color: #ffffff;
-    background-color: lightskyblue;
-    background-size: ;
+    font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.wine {
+.second-app img {
+    height: 80%;
+    width: 50%;
+    padding: 30px;
+}
+
+.third-app {
     display: flex;
-    height: 150px;
-    width: 40%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 300px;
+    width: auto;
     color: #ffffff;
-    background-color: brown;
+    font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.grey {
-    display: flex;
-    height: 150px;
-    width: 40%;
-    color: #ffffff;
-    background-color: grey;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.navy-blue {
-    display: flex;
-    height: 150px;
-    width: 40%;
-    color: #ffffff;
-    background-color: navy;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.purple {
-    display: flex;
-    height: 150px;
-    width: 40%;
-    color: #ffffff;
-    background-color: purple;
-    font-family: Arial, Helvetica, sans-serif;
+.third-app img {
+    height: 80%;
+    width: 50%;
+    padding: 30px;
 }
 
 .resume {
     color: #ffffff;
     background-color: black;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
     padding: 20px;
 }
 
@@ -162,5 +184,23 @@ a {
     margin-left: 25px;
 }
 
+@media screen and (max-width: 992px) {
+    header {
+      background: #772014;
+    }
+  }
+  
+@media screen and (max-width: 768px) {
+    nav {
+      background-color: #bb8588;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .sample-img {
+      background-color: #8ac4ff;
+    }
+  }
+  
 
 
