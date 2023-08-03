@@ -76,8 +76,8 @@ a {
 }
 
 .about-me div img {
-    height: 70%;
-    width: 25%;
+    height: 300px;
+    width: 260px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -119,8 +119,8 @@ a {
 }
 
 .second-app img {
-    height: 80%;
-    width: 50%;
+    height: 300px;
+    width: 600px;
     padding: 30px;
 }
 
@@ -136,8 +136,8 @@ a {
 }
 
 .third-app img {
-    height: 80%;
-    width: 50%;
+    height: 300px;
+    width: 600px;
     padding: 30px;
 }
 
@@ -183,24 +183,3 @@ a {
     display: inline-block;
     margin-left: 25px;
 }
-
-@media screen and (max-width: 992px) {
-    header {
-      background: #772014;
-    }
-  }
-  
-@media screen and (max-width: 768px) {
-    nav {
-      background-color: #bb8588;
-    }
-  }
-  
-  @media screen and (max-width: 576px) {
-    .sample-img {
-      background-color: #8ac4ff;
-    }
-  }
-  
-
-
